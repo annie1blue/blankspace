@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+
+
+#new-story {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+body {
+    background-image: linear-gradient(-90deg, #f6a192, #f6d992);
+  }
+
+.navbar-brand {
+    color: #f6b092
+}
