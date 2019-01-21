@@ -6,29 +6,36 @@
     <link rel="stylesheet" href="/static/css/style.css">
     <link rel="shortcut icon" href="static/favicon1.ico" type="image/x-icon">
     <link rel="icon" href="static/favicon1.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+      <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark navcolor">
-      <div class="navbar-brand" href="#">Blank Space</div>
-      <div class="navbar-nav" id="nav-item-container">
-        <!-- navbar items are inserted here -->
-      </div>
-    </nav>
-    <div class="container feed-container">
-      <div class="row">
-        <div class="col">
-          <div id="new-story">
-            <!-- new story input inserted here -->
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div id="stories" class="col">
-          <!-- stories are inserted here -->
+
+<!--Test Hamburger Menu-->
+    <label>
+      <input type='checkbox'>
+      <span class='menu'>
+        <span class='hamburger'></span>
+      </span>
+      <ul id='ham-item-container'>
+      </ul>
+    </label>
+
+  <div class="container feed-container">
+    <div class="row">
+      <div class="col">
+        <div id="new-story">
+          <!-- new story input inserted here -->
         </div>
       </div>
     </div>
-    <div id="app"></div>
+    <div class="row">
+      <div id="stories" class="col">
+        <!-- stories are inserted here -->
+      </div>
+    </div>
+  </div>
+  <div id="app"></div>
   </body>
   <script src="/static/js/api.js"></script>
   <script src="/static/js/navbar.js"></script>
