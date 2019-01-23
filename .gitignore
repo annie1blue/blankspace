@@ -4,3 +4,5 @@ node_modules/
 *.swp
 package-lock.json
 yarn.lock
+.env
+

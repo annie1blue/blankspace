@@ -3,15 +3,11 @@
 body {
   font-family: 'Rubik', sans-serif;
   font-weight: 300;
-  background-image: rgb(243, 229, 213);
+  background-image:linear-gradient(-90deg, #f6a192, #f6d992);
   font-size: 1.2em;
   line-height: 1.6;
-  background: #CCC;
-  overflow-x: hidden;
-}
 
-.navcolor {
-  background-image: linear-gradient(-90deg, #f6a192, #f6d992)	
+  overflow-x: hidden;
 }
 
 .btn {
@@ -69,6 +65,15 @@ div.circle-avatar{
 	bottom: 0;
 }
 
+.nav-item{
+	font-size: 30px;
+	color: white;
+}
+
+nav a:hover {
+	color:#f6d992;
+  }
+
 /*Make a hamburger menu*/
 #ham-item-container{
 	font-size:50px;
@@ -94,7 +99,7 @@ label .menu {
 	background: #FFF;
 	border-radius: 50% 50% 50% 50%;
 	transition: .5s ease-in-out;
-	box-shadow: 0 0 0 0 #FFF, 0 0 0 0 #FFF;
+	box-shadow: 0 0 0 0 orange, 0 0 0 0 orange;
 	cursor: pointer;
   }
   label .hamburger {
@@ -128,7 +133,7 @@ label .menu {
 	display: none;
   }
   label input:checked + .menu {
-	box-shadow: 0 0 0 100vw #FFF, 0 0 0 100vh #FFF;
+	box-shadow: 0 0 0 100vw #f6a192, 0 0 0 100vh#f6d992;
 	border-radius: 0;
   }
   label input:checked + .menu .hamburger {

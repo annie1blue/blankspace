@@ -9,6 +9,7 @@ const db = require('./db');
 const passport = require('./passport');
 const views = require('./routes/views');
 const api = require('./routes/api');
+const env = require('dotenv').config();
 
 
 // initialize express app
@@ -70,7 +71,7 @@ app.use(function(err, req, res, next) {
 });
 
 // port config
-const port = 3000; // config variable
+const port = (process.env.PORT || 3000); // config variable
 const server = http.Server(app);
 server.listen(port, function() {
   console.log('Server running on port: ' + port);

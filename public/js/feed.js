@@ -1,3 +1,5 @@
+const API_ENDPOINT_START = 'https://blank--space.herokuapp.com'
+
 function storyDOMObject(storyJSON, user) {
   const card = document.createElement('div');
   card.setAttribute('id', storyJSON._id);
